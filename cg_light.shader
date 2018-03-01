@@ -101,7 +101,7 @@ Shader "Custom/cg_light" {
 
 				fixed4 frag(v2f i) : SV_Target
 				{
-					//return fixed4(0.,0.,0.,0.);
+					//return fixed4(0.,0.,0.,0.);;
 
 					float l = max(0., dot(i.normal, normalize(_WorldSpaceLightPos0.xyz)));
 					return _LightColor0 * l;
