@@ -8,7 +8,7 @@ using System.Collections;
 public class PausingBehaviour : MonoBehaviour
 {
     /// <summary>
-    /// 是否暂停逻辑处理.
+    /// 是否暂停逻辑处理.123
     /// </summary>
     public static bool pause { get; set; }
 
