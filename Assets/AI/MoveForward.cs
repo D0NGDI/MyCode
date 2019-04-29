@@ -24,7 +24,6 @@ public class MoveForward : RAINAction
 
     public override void Stop(RAIN.Core.AI ai)
     {
-//123
         base.Stop(ai);
     }
 }
