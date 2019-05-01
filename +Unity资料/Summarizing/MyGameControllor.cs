@@ -35,7 +35,14 @@ public abstract class MyGameControllor : GameControllor
     {
         if (IsOnTime)
         {
-            UpdateGame();
+            if(IsPuse1 && IsPuse2)
+            {
+                UpdateGame();
+            }else if(IsPuse1)
+            {
+                UpdateGame();
+            }
+            
 
         }
     }
