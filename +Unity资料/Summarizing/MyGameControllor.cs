@@ -29,7 +29,7 @@ public abstract class MyGameControllor : GameControllor
     }
     void FixedUpdate()//FixedUpdate更新
     {
-        if (IsOnTime = (IsRun()))
+        if (IsOnTime = (IsRun()))//这里是将方法返回的值赋值给IsOnTime
         {
             //LateUpdateGame();
             //UpdateGame();
