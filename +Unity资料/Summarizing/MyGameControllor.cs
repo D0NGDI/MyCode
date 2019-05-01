@@ -16,11 +16,17 @@ public abstract class MyGameControllor : GameControllor
         get { return MyGameControllor.gameTime; }
         set { MyGameControllor.gameTime = value; }
     }
-    private static bool isPuse = true;//用于在单位脚本里设置受不受暂停影响
-    public static bool IsPuse
+    private static bool isPuse1 = true;//用于在单位脚本里设置受不受暂停影响
+    public static bool IsPuse1
     {
-        get {return MyGameControllor.isPuse;}
-        set {MyGameControllor.isPuse = value;}
+        get {return MyGameControllor.isPuse1;}
+        set {MyGameControllor.isPuse1 = value;}
+    }
+    private static bool isPuse2 = true;//用于在单位脚本里设置受不受暂停影响
+    public static bool IsPuse2
+    {
+        get {return MyGameControllor.isPuse2;}
+        set {MyGameControllor.isPuse2 = value;}
     }
     private static float runtime = 0;//计时器
     private bool IsOnTime = false;
