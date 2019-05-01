@@ -35,15 +35,10 @@ public abstract class MyGameControllor : GameControllor
     {
         if (IsOnTime)
         {
-            if(IsPuse1 && IsPuse2)
-            {
-                UpdateGame();
-            }else if(IsPuse1)
+            if(IsPuse1 && IsPuse2)//可以回去试一下
             {
                 UpdateGame();
             }
-            
-
         }
     }
     void FixedUpdate()//FixedUpdate更新
